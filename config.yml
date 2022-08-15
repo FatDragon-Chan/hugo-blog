@@ -1,0 +1,69 @@
+#baseURL: "https://adityatelange.github.io/hugo-PaperMod/" # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: AHone
+paginate: 5
+theme: hugo-PaperMod
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+menu:
+  main:
+    - name: 文章
+      url: doItYourSelf/
+      weight: 10
+    - name: 搜索
+      url: search/
+      weight: 10
+    - name: 标签
+      url: tags/
+      weight: 10
+    - name: 历史
+      url: archives
+      weight: 5
+    - name: BiliBili
+      url: https://space.bilibili.com/65264179
+    - name: Github
+      url: https://github.com/FatDragon-Chan
+
+
+params:
+  author: '阿哄'
+  ShowCodeCopyButtons: true
+  defaultTheme: auto
+  ShowAllPagesInArchive: true
+  ShowFullTextinRSS: true
+  showtoc: true
+  tocopen: false
+  profileMode:
+    enabled: true
+    title: "AHone" # optional default will be site title
+    subtitle: "阿哄 - 得闲饮茶的地方"
+    imageUrl: "http://img.chenzian.com/uPic/image-20220813101423000_2022_08_13_10_14_23.png" # optional
+    imageTitle: "测试"
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+#    buttons:
+#      - name: Archive
+#      url: "/archive"
+#        - name: Github
+#      url: "https://github.com/"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/FatDragon-Chan"
+#    - name: KoFi
+#      url: "https://ko-fi.com/adityatelange"
+    - name: Rss
+      url: "index.xml"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
