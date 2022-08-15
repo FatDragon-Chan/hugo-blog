@@ -1,5 +1,5 @@
 ---
-title: "历史"
+title: "归档"
 layout: "archives"
 # url: "/archives"
 summary: "archives"

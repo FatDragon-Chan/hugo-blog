@@ -1,12 +1,11 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
-author: ["阿哄"]
+title: "关于我"
+date: 2022-08-15T16:51:21+08:00
+lastmod: 2022-08-15T16:51:21+08:00
+author: ["作者"]
 categories:
 - 分类1
 - 分类2
-  tags:
 - 标签1
 - 标签2
 # summary->在列表页展现的摘要内容，自动生成，内容默认前70个字符，可通过此参数自定义，一般无需专门设置
@@ -28,5 +27,17 @@ caption: ""
 alt: ""
 relative: false
 ---
+<!--more--> 
 
 此处开始为正文
+
+'12'
+3
+12
+312
+3
+123
+12
+31
+2
+321
