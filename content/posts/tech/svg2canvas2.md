@@ -1,7 +1,7 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
+title: "Svg2canvas2"
+date: 2022-08-16T15:21:31+08:00
+lastmod: 2022-08-16T15:21:31+08:00
 author: ["AHone"]
 keywords: 
 - 
