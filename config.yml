@@ -1,4 +1,4 @@
-baseURL: https://www.chenzian.com
+baseURL: http://www.chenzian.com
 languageCode: zh-cn # en-us
 title: AHone - 得闲饮茶
 theme: hugo-PaperMod  # 主题名字，和themes文件夹下的一致
