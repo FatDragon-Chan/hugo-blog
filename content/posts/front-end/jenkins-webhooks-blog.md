@@ -27,6 +27,3 @@ cover:
     alt: ""
     relative: false
 ---
-
-
-
